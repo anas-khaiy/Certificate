@@ -111,21 +111,22 @@ La fiabilité et la performance de Certif-fun ont été prouvées par des tests 
 ##  Aperçu de l'Interface
 
 ### 1. Surveillance IA (Proctoring)
-<p align="center">
-  <img src="Face and Gaze Detection in Proctoring Interface.png" width="800" alt="Surveillance IA">
-  <br><i>Suivi du regard et détection d'objets en temps réel via YOLOv8 et MediaPipe.</i>
-</p>
+<img width="1710" height="1043" alt="apprenant-8" src="https://github.com/user-attachments/assets/da649ac0-47ab-48cf-9ec8-2a9b2caa25e9" />
 
-### 2. Multi-portails Unifiés
-<p align="center">
-  <img src="Login Users Img.png" width="800" alt="Interface de Connexion Multi-portails">
-  <br><i>Accès centralisé pour Admin, Formateur et Apprenant.</i>
-</p>
+
+### 2. Multi-portails 
+<img width="1710" height="946" alt="login" src="https://github.com/user-attachments/assets/22623606-6cf9-46e8-9430-c25cbdc2204b" />
 
 ### 3. Visioconférence (LiveKit)
-<p align="center">
-  <img src="System Workflow.png" width="800" alt="Visioconférence et flux">
-</p>
+<img width="3070" height="1688" alt="image" src="https://github.com/user-attachments/assets/3256ee48-2bbc-4724-ba64-1000040e4b9e" />
+
+
+### 4. vérification d’identité
+<img width="1583" height="879" alt="verification_identite" src="https://github.com/user-attachments/assets/dfc14b0f-7835-47fb-be02-10cec350e128" />
+
+### 5. L’espace d’apprentissage
+<img width="1710" height="937" alt="apprenant-7" src="https://github.com/user-attachments/assets/70e217fb-c496-43f2-aa9e-4a0e99589e07" />
+
 
 ---
 
