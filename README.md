@@ -164,6 +164,18 @@ L'infrastructure utilise Nginx comme proxy inverse. Les accès par défaut (selo
 
 ---
 
+---
+
+## Video démonstrative
+
+
+
+https://github.com/user-attachments/assets/991d875a-d60f-4b83-9055-62b70226c80b
+
+
+
+
+
 ##  Auteur & Encadrement
 
 Ce projet a été réalisé dans le cadre du **Master Didactique des Sciences et Ingénierie Éducative (MSDIE)** de l'École Normale Supérieure (ENS) de Marrakech, Université Cadi Ayyad.
@@ -172,6 +184,4 @@ Ce projet a été réalisé dans le cadre du **Master Didactique des Sciences et
 - **Encadrant :** Pr. LAANAOUI My Driss
 
 ---
-<p align="center">
-  © 2026 Certif-fun — Conçu pour l'excellence pédagogique et l'intégrité numérique.
-</p>
+
