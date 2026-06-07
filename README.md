@@ -19,18 +19,18 @@
 ---
 
 ## 📖 Sommaire
-- [🎯 Contexte et Objectifs](#-contexte-et-objectifs)
-- [✨ Fonctionnalités Clés](#-fonctionnalités-clés)
-- [🏗️ Architecture du Système](#️-architecture-du-système)
-- [🛠️ Stack Technologique](#️-stack-technologique)
-- [🚀 Performances et Tests (CI/CD)](#-performances-et-tests-cicd)
-- [🖼️ Aperçu de l'Interface](#️-aperçu-de-linterface)
-- [🚦 Démarrage Rapide](#-démarrage-rapide)
-- [👤 Auteur & Encadrement](#-auteur--encadrement)
+- [Contexte et Objectifs](#-contexte-et-objectifs)
+- [Fonctionnalités Clés](#-fonctionnalités-clés)
+- [Architecture du Système](#️-architecture-du-système)
+- [Stack Technologique](#️-stack-technologique)
+- [Performances et Tests (CI/CD)](#-performances-et-tests-cicd)
+- [Aperçu de l'Interface](#️-aperçu-de-linterface)
+- [Démarrage Rapide](#-démarrage-rapide)
+- [Auteur & Encadrement](#-auteur--encadrement)
 
 ---
 
-## 🎯 Contexte et Objectifs
+##  Contexte et Objectifs
 
 La transformation numérique de l'éducation a révélé des lacunes critiques dans les outils de gestion de l'apprentissage (LMS) traditionnels : fragmentation des outils, absence d'IA native pour l'assistance pédagogique, et vulnérabilité des examens à distance.
 
@@ -41,29 +41,29 @@ La transformation numérique de l'éducation a révélé des lacunes critiques d
 
 ---
 
-## ✨ Fonctionnalités Clés
+##  Fonctionnalités Clés
 
-### 🛡️ Surveillance IA et Anti-Triche (AI Proctoring)
+###  Surveillance IA et Anti-Triche (AI Proctoring)
 Le système ne se contente pas d'enregistrer la webcam, il **comprend** l'environnement de l'étudiant en quasi-temps réel :
 - **Vision (YOLOv8 & MediaPipe) :** Détection d'objets interdits (téléphones, livres), présence multiple et suivi précis du regard (Gaze estimation).
 - **Anti-Absence :** Alerte visuelle et arrêt automatique de l'examen en cas d'infraction.
 - **Surveillance du Navigateur :** Détection des changements d'onglets ou de la sortie du mode plein écran.
 
-### 🤖 Assistant Pédagogique LLM (IA Générative)
+###  Assistant Pédagogique LLM (IA Générative)
 Intégration locale via **Ollama** pour garantir la confidentialité absolue des données :
 - Génération automatique de quiz à partir de supports de cours (format JSON).
 - Support de modèles locaux ultra-légers et performants : **Mistral 7B**, **Llama 3.2** et **Qwen 2.5**.
 
-### 📹 Visioconférence et Classes Virtuelles
+###  Visioconférence et Classes Virtuelles
 - Sessions vidéo en direct rendues possibles par la technologie **LiveKit (WebRTC)**.
 - Architecture SFU (Selective Forwarding Unit) pour alléger la consommation CPU et garantir une qualité audio/vidéo stable.
 
-### 👨‍💻 Espace Coding Expert
+###  Espace Coding Expert
 - Éditeur de code en ligne interactif (Sandbox) avec exécution sécurisée pour les formations en informatique (Python, Java, etc.).
 
 ---
 
-## 🏗️ Architecture du Système
+##  Architecture du Système
 
 Certif-fun repose sur une architecture distribuée moderne et conteneurisée, assurant scalabilité, isolation et maintenabilité :
 
@@ -79,7 +79,7 @@ L'architecture est structurée en 4 couches majeures :
 
 ---
 
-## 🛠️ Stack Technologique
+##  Stack Technologique
 
 | Couche | Technologies |
 | :--- | :--- |
@@ -93,7 +93,7 @@ L'architecture est structurée en 4 couches majeures :
 
 ---
 
-## 🚀 Performances et Tests (CI/CD)
+##  Performances et Tests (CI/CD)
 
 La fiabilité et la performance de Certif-fun ont été prouvées par des tests rigoureux :
 
@@ -108,7 +108,7 @@ La fiabilité et la performance de Certif-fun ont été prouvées par des tests 
 
 ---
 
-## 🖼️ Aperçu de l'Interface
+##  Aperçu de l'Interface
 
 ### 1. Surveillance IA (Proctoring)
 <p align="center">
@@ -129,7 +129,7 @@ La fiabilité et la performance de Certif-fun ont été prouvées par des tests 
 
 ---
 
-## 🚦 Démarrage Rapide
+##  Démarrage Rapide
 
 ### 1. Pré-requis
 - Docker Desktop et Docker Compose.
@@ -156,7 +156,7 @@ L'infrastructure utilise Nginx comme proxy inverse. Les accès par défaut (selo
 
 ---
 
-## 👤 Auteur & Encadrement
+##  Auteur & Encadrement
 
 Ce projet a été réalisé dans le cadre du **Master Didactique des Sciences et Ingénierie Éducative (MSDIE)** de l'École Normale Supérieure (ENS) de Marrakech, Université Cadi Ayyad.
 
