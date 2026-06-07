@@ -30,7 +30,7 @@ spec:
         - name: POSTGRES_USER
           value: postgres
         - name: POSTGRES_PASSWORD
-          value: password
+          value: votre_mot_pass
         - name: POSTGRES_DB
           value: certif_db
         ports:
