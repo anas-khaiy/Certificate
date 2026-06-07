@@ -67,15 +67,22 @@ Intégration locale via **Ollama** pour garantir la confidentialité absolue des
 
 Certif-fun repose sur une architecture distribuée moderne et conteneurisée, assurant scalabilité, isolation et maintenabilité :
 
-<p align="center">
-  <img src="diagramme architecture.png" width="700" alt="Architecture Microservices">
-</p>
+<img width="893" height="832" alt="architecture_globale" src="https://github.com/user-attachments/assets/4ca41d72-31fe-49fb-a36c-d29a7f12dc3a" />
+
 
 L'architecture est structurée en 4 couches majeures :
 1. **Presentation Layer (React)** : 3 portails web (Apprenant, Formateur, Admin).
 2. **Microservices Layer (Spring Boot)** : 3 microservices Java métier gérant chacun un domaine spécifique.
 3. **AI & Media Layer** : Module Python FastAPI (YOLOv8), serveur LiveKit (SFU), et API Ollama.
 4. **Persistence Layer** : Base de données relationnelle PostgreSQL.
+
+##  Diagramme de Classes
+
+<img width="3900" height="2349" alt="diagramme_classes" src="https://github.com/user-attachments/assets/5048e73b-b6cb-4836-876d-4e6aee52c946" />
+
+## diagramme de cas d'utilisation
+
+<img width="1093" height="846" alt="capture_use_case" src="https://github.com/user-attachments/assets/fafafa77-bf0a-4058-8b7b-b42b877a9e56" />
 
 ---
 
